@@ -1,7 +1,5 @@
 <?php
 header('Access-Control-Allow-Origin: ' . $_SERVER['HTTP_ORIGIN']);
-print 'Hello from PHP server';
-
 header('Content-Type: application/json');
 
 $data = array (
